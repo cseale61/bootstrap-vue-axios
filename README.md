@@ -19,6 +19,9 @@ npm run build
 ```
 npm run lint
 ```
-
+### Important!
+```
+Clone project then change your project directory name to whatever you wish your project name to be. Also remember to change the name in your package.json file and anywhere else it may need changing.
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
