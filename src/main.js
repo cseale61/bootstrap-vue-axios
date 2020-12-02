@@ -15,9 +15,6 @@ Vue.use(BootstrapVueIcons);
 Vue.use(ToastPlugin);
 
 
-
-
-
 new Vue({
   router,
   store,
