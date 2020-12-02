@@ -1,4 +1,4 @@
-# Vue 2 Template using bootstrap-vue and axios
+# Vue 2 Website Template using bootstrap-vue and axios
 
 ## Project setup
 ```
