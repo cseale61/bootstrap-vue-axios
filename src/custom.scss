@@ -1,2 +1,52 @@
+// Variable overides
+
+$primary:       #0a316b;
+$secondary:     #6c757d;
+$success:       #28a745;
+$info:          #17a2b8;
+$warning:       #ffc107;
+$danger:        #a11a28;
+$light:         #FFFFFF;
+$lightgrey:     #CCCCCC;
+$dark:          #67717a;
+$banner:        #215e03;
+$light_btn:     rgb(136, 222, 243);
+
+$theme-colors: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "lightbtn":   $light_btn,
+    "lightgrey":  $lightgrey,
+    "banner":     $banner
+);
+
+$body-bg: $light;
+
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
+
+.input-card {
+    width: 650px;
+    
+
+}
+
+.no-border {
+    border: none;
+}
+
+h1 {
+    font-size: 1.6rem !important;
+    margin-bottom: 25px !important;
+}
+
+h2 {
+    font-size: 1.3rem !important;
+    margin: 0 0 0 26px;
+}
