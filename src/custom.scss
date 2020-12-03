@@ -26,15 +26,11 @@ $theme-colors: (
     "banner":     $banner
 );
 
-$body-bg: $light;
-
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
 .input-card {
     width: 650px;
-    
-
 }
 
 .no-border {
@@ -42,11 +38,11 @@ $body-bg: $light;
 }
 
 h1 {
-    font-size: 1.6rem !important;
-    margin-bottom: 25px !important;
+    font-size: 1.6rem;
+    margin-bottom: 25px;
 }
 
 h2 {
-    font-size: 1.3rem !important;
+    font-size: 1.3rem;
     margin: 0 0 0 26px;
 }
