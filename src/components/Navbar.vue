@@ -50,7 +50,7 @@ a {
     font-weight: bold;
 
     :hover {
-        text-decoration: none;
+        text-decoration: none !important;
         color: #FFF;
     }
 }
